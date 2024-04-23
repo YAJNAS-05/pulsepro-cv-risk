@@ -51,7 +51,7 @@ def inp():
 
 # Using numpy  where function can be sort the list by required condition
     
-    _a=np.where(f['age']+5<=age1)
+    _a=np.where(f['age']+1095<=age1)
     _b=np.where(f['gender']==gender1)
     _c=np.where(f['ap_hi']<=hibp1)
     _d=np.where(f['ap_lo']>=lwbp1)
