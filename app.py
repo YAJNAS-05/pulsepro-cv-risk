@@ -146,11 +146,10 @@ def inp(age1,gender1,height1,weight1,hibp1,lwbp1,chl1,glu1,smo1,alco1,car1
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, we are Tech Titans :wave:")
-    st.title("Heart disease detection")
-    st.write(
-        "To detect cardiac diseases"
-    )
+    st.title("Welcome to Pulse Pro")
+    st.subheader("Cardio Vascular Analysis ")
+    st.write("How's your heart doing ?")
+    st.write("Please enter your details below to receive a personalized cardiovascular analysis. \n Your health is our priority, let's get started!")
     age1=st.number_input('Enter AGE in Years : ',min_value=0)
     age1*=365
     gender1=st.number_input('Enter 1 for MALE and 2 for FEMALE : ',min_value=0)
