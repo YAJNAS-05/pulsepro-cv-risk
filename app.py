@@ -198,8 +198,8 @@ if st.button("Predict"):
             #print('Machine Learning')
             #st.write("This Person does not have any thread to Cardio Problem.\n Don't Smoke and Don't Drink")
             count=1
-
-if count==1:
-    st.write("This Person does not have any thread to Cardio Problem.\n Don't Smoke and Don't Drink")
-elif count==-1:
-    st.write(" This Person may have Cardio Problem!.\n Kindly visit Hospital. \n Don't Smoke and Don't Drink")
+with st.container():
+    if count==1:
+        st.write("This Person does not have any thread to Cardio Problem.\n Don't Smoke and Don't Drink")
+    elif count==-1:
+        st.write(" This Person may have Cardio Problem!.\n Kindly visit Hospital. \n Don't Smoke and Don't Drink")
