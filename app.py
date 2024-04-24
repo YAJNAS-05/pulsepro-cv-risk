@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 f=pd.read_csv('cardio_train.csv',sep=';')
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
